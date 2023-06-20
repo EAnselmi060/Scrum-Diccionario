@@ -38,9 +38,6 @@ class Diccionario:
         self.hashtable.append(nuevo)
         return True
 
-    def eliminar_palabra(self, palabra_e):
-        pass
-
     def buscar_palabra(self, palabra_buscar):
         palabra_buscar = palabra_buscar.lower()
 
